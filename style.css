@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main{
+    margin-top: 1rem;
+   margin-left: 2rem; 
+}
+
+.navegationHeader{  /*Nav manda na minha UL e na minha imagem - Estou dizendo pra minha lista e minha imagem ficar uma ao lado da outra*/
+    width: 100%;
+    /* border: solid red; */
+    display: flex;
+}
+
+.list{  /*Ul manda na minha li - Estou dizendo para os itens da minha lista (li) ficar um ao lado do outro */
+width: 80%;
+/* margin-left: 3rem; */
+/* border: solid blue; */
+display: flex;
+justify-content: space-evenly; 
+align-items: center;
+}
+
+.itemList{
+    font-size: 2rem;
+}
+
+.logoHeader{
+    width: 10%;
+}
+
+h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.btnHeader{
+    width: 3vw;
+    height: 4vh;
+    text-transform: uppercase;
+    margin: 1rem;
+
+}
+
+.btnMain{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 12vw;
+    background-color: #CDCDD2;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+p{
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.circle{
+    width:14vw;
+    height: 26vh;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+    margin-bottom: 2rem;
+}
+
+
+.paragraphSobre{
+    margin-top: 1rem;
+}
+
+.boxImg{
+    display: flex;
+}
+
+.btnBox{
+    width: 4vw;
+}
+
+.titleBox{
+    text-align: start;
+}
+
+.imgBox{
+    width: 15vw;
+    height: 25vh;
+}
